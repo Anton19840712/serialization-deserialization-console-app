@@ -3,12 +3,11 @@
 var action = new TestFunctionality();
 
 // Data sample:
-var address = new Address { Street = "123 Main St", City = "City" };
+var address = new Address { Street = "123 Main St", City = "Minsk" };
 var employee = new Employee { Name = "John Doe", Age = 30, Address = address, EmployeeId = "EMP001" };
 var company = new Company { Name = "Tech Co", Employees = new List<Employee> { employee } };
 
 var modelExample = new Scope { Person = employee, Company = company };
-
 
 // Serialization:
 action.Serialize(modelExample, "serialized_model.json");

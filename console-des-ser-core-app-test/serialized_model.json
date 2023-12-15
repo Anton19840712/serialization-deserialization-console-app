@@ -1,0 +1,25 @@
+{
+  "Person": {
+    "EmployeeId": "EMP001",
+    "Address": {
+      "Street": "123 Main St",
+      "City": "Minsk"
+    },
+    "Name": "John Doe",
+    "Age": 30
+  },
+  "Company": {
+    "Name": "Tech Co",
+    "Employees": [
+      {
+        "EmployeeId": "EMP001",
+        "Address": {
+          "Street": "123 Main St",
+          "City": "Minsk"
+        },
+        "Name": "John Doe",
+        "Age": 30
+      }
+    ]
+  }
+}
