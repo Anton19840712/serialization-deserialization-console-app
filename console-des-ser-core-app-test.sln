@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34212.112
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeseSerialSample", "ConsoleApp1\DeseSerialSample.csproj", "{E7ACA43D-20C4-41C1-BC70-3AF046AE6EF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test-sample", "console-des-ser-core-app-test\test-sample.csproj", "{E7ACA43D-20C4-41C1-BC70-3AF046AE6EF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
