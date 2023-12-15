@@ -17,7 +17,7 @@ public class TestFunctionality
 		var projectDirectory = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..\\..\\..\\"));
 		var fullPath = Path.Combine(projectDirectory, filename);
 
-		var json = File.ReadAllText(filename);
+		var json = File.ReadAllText(fullPath);
 		return JsonConvert.DeserializeObject<T>(json);
 	}
 }
