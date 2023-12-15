@@ -6,7 +6,7 @@ public class EmployeeConverter : JsonConverter<Employee>
 {
 	public override Employee ReadJson(JsonReader reader, Type objectType, Employee existingValue, bool hasExistingValue, JsonSerializer serializer)
 	{
-		JObject jObject = JObject.Load(reader);
+		var jObject = JObject.Load(reader);
 		if (jObject["EmployeeId"] != null)
 		{
 			return jObject.ToObject<Employee>();
